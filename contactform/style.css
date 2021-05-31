@@ -1,0 +1,38 @@
+body {
+    font-family: monospace;
+    
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: deepskyblue 1px solid;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: 450px;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: deepskyblue;
+    margin-left: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.fieldset-personal, .fieldset-preference, fieldset {
+    border: none;
+  
+}
+fieldset {
+    font-size: bold;
+    color: aliceblue;
+    
+}
+
+form {
+    margin: 200px 400px;
+    padding: 10px;
+    background-color: deepskyblue;
+    border: none;
+}
